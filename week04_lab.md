@@ -483,10 +483,23 @@ class DestinationCard extends StatelessWidget {
 > 2. เพิ่ม `Row` ใหม่ใต้ Tags แสดงไอคอน `Icons.bed` พร้อมข้อความ "พร้อมเข้าพัก" โดยครอบข้อความด้วย `Expanded` เพื่อกันไม่ให้ล้นถ้าชื่อยาว
 > 3. เขียน Comment สั้น ๆ ในโค้ดของตัวเองอธิบายว่าทำไมต้องใช้ `Positioned` คู่กับ `Stack` ถึงจะย้ายตำแหน่ง Badge ได้ (ถ้าใช้ `Positioned` นอก `Stack` จะเกิดอะไรขึ้น)
 
+บันทึกรูปโค้ด
+<img width="858" height="948" alt="1" src="https://github.com/user-attachments/assets/22fcda62-c026-49e0-95a9-f070cc37a291" />
+
+<img width="1396" height="940" alt="2" src="https://github.com/user-attachments/assets/8989e145-3e20-4cae-a2e3-0cb49919af4a" />
+
+<img width="1053" height="945" alt="3" src="https://github.com/user-attachments/assets/20d43002-9b2f-44ac-bd1f-25e224ec79b5" />
+
+<img width="1043" height="946" alt="4" src="https://github.com/user-attachments/assets/c175554c-ae87-484e-acd2-306b1d78e6d4" />
+
+<img width="858" height="905" alt="5" src="https://github.com/user-attachments/assets/9907b70f-8f7a-4cfb-9390-054bd8c4a920" />
+
+
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f206eec4-2472-48c9-ac66-2272ce171854" />
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/63b38ed2-902b-4778-b91c-9d2f1fe29198" />
+
 ---
 
 ### การทดลองที่ 4 — สร้าง Screens
