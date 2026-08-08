@@ -1143,7 +1143,7 @@ class _StatCard extends StatelessWidget {
 
 บันทึกรูปผลการทดลอง
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/57a95201-50a9-4f2b-9062-d04d3835b5f6" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a2aa6c49-64aa-46e5-9dce-59d9f92a3e3b" />
 
 
 สร้างไฟล์ `lib/screens/saved_screen.dart`:
