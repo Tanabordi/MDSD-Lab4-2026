@@ -496,9 +496,7 @@ class DestinationCard extends StatelessWidget {
 
 
 บันทึกรูปผลการทดลอง
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f206eec4-2472-48c9-ac66-2272ce171854" />
-
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/63b38ed2-902b-4778-b91c-9d2f1fe29198" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6fcf7cc9-6919-4c3c-bdcb-b2003ecec750" />
 
 ---
 
