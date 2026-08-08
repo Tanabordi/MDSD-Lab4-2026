@@ -662,9 +662,8 @@ class _ExploreScreenState extends State<ExploreScreen> {
 <img width="858" height="347" alt="10" src="https://github.com/user-attachments/assets/66d421bd-0ec4-4d5b-8340-abbd076183f8" />
 
 บันทึกรูปผลการทดลอง
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/77732acd-7524-4635-8454-e5f64365f577" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fc6284d7-2fe6-4a42-8cea-bf58841384b1" />
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/07590d9b-8a01-45f0-aaa4-820b2d8e482f" />
 
 #### ขั้นตอนที่ 4.2 — Destination Detail Screen
 
