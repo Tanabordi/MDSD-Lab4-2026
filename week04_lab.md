@@ -1392,10 +1392,20 @@ final GoRouter appRouter = GoRouter(
 > 2. แก้ไข Fallback Logic ใน Route `destination-detail` จากเดิมที่ใช้ `orElse: () => sampleDestinations.first` (ซึ่งถ้าหา `id` ไม่เจอจะเด้งไปโชว์ข้อมูลผิดตัวแบบเงียบ ๆ โดยไม่แจ้งผู้ใช้) ให้เปลี่ยนไปแสดงหน้า "ไม่พบข้อมูลที่ต้องการ" แทน เมื่อหา `id` นั้นไม่เจอจริง ๆ
 > 3. ทดสอบ Fallback ที่แก้ไข โดยรันแอปบน Chrome (`flutter run -d chrome`) แล้วพิมพ์ URL `/explore/destinations/999` ตรง ๆ ใน Address Bar (เป็น `id` ที่ไม่มีอยู่จริง) — ต้องเห็นหน้า "ไม่พบข้อมูลที่ต้องการ" ไม่ใช่ Error สีแดงหรือข้อมูลผิดตัว
 
+บันทึกรูปโค้ด
+<img width="857" height="950" alt="19" src="https://github.com/user-attachments/assets/e99a2da4-f5f4-4c84-9bdb-e6c20c44d40a" />
+
+<img width="866" height="947" alt="20" src="https://github.com/user-attachments/assets/483724c8-c864-402b-92cb-93f8ca2dcd54" />
+
+<img width="987" height="942" alt="21" src="https://github.com/user-attachments/assets/52a571d9-00cc-453e-bbcb-68334c19b251" />
+
+<img width="887" height="951" alt="22" src="https://github.com/user-attachments/assets/82ccda06-15dc-4f07-bf5d-e44eb325c662" />
+
+<img width="600" height="361" alt="23" src="https://github.com/user-attachments/assets/6ea48bd0-1c36-43a0-bf61-ea9d140331f7" />
+
+<img width="588" height="458" alt="24" src="https://github.com/user-attachments/assets/de346a31-3ceb-4633-8bff-35a3234f6e3e" />
+
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
 
 
 #### ขั้นตอนที่ 5.2 — ตั้งค่า main.dart
