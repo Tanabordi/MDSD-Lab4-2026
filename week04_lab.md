@@ -1137,9 +1137,8 @@ class _StatCard extends StatelessWidget {
 <img width="1028" height="936" alt="17" src="https://github.com/user-attachments/assets/acf36b2a-519a-47bf-bbbd-9bd3c8c2681a" />
 
 บันทึกรูปผลการทดลอง
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8bce98b3-78c7-48ee-afe5-10d8234da901" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/57a95201-50a9-4f2b-9062-d04d3835b5f6" />
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1eb65678-1344-4add-b698-188f52c28ba4" />
 
 สร้างไฟล์ `lib/screens/saved_screen.dart`:
 
@@ -1235,6 +1234,7 @@ class ProfileScreen extends StatelessWidget {
   }
 }
 ```
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d9b91084-a7b3-4d1e-8191-74d6e4f33afe" />
 
 ---
 
