@@ -652,10 +652,21 @@ class _ExploreScreenState extends State<ExploreScreen> {
 > 2. ใน `_buildGrid()` เพิ่มบรรทัด `final screenWidth = MediaQuery.of(context).size.width;` แล้วลองแสดงค่านี้เทียบกับ `constraints.maxWidth` ของ `LayoutBuilder` (เช่น พิมพ์ด้วย `print()` หรือแสดงเป็น `Text` ชั่วคราวบนหน้าจอ)
 > 3. สังเกตว่าค่าทั้งสองตัวเท่ากันหรือไม่ แล้วเขียนสรุป 2-3 บรรทัดเป็น Comment ในโค้ดว่า `MediaQuery.of(context).size.width` (ความกว้างของทั้งหน้าจอ) กับ `LayoutBuilder` `constraints.maxWidth` (ความกว้างที่ Widget นั้น ๆ ได้รับจาก Parent) ต่างกันอย่างไร และควรเลือกใช้ตัวไหนเมื่อไหร่
 
+บันทึกรูปโค้ด
+<img width="868" height="946" alt="6" src="https://github.com/user-attachments/assets/91693983-a9c8-431b-9cdd-d94711fe50f1" />
+
+<img width="817" height="945" alt="7" src="https://github.com/user-attachments/assets/b3b62206-5094-44cf-aa6e-8a1ed2f73ec2" />
+
+<img width="1533" height="947" alt="8" src="https://github.com/user-attachments/assets/7ec7d879-6741-4d3a-ad55-978bf900126f" />
+
+<img width="857" height="950" alt="9" src="https://github.com/user-attachments/assets/7c538c56-d5bc-4426-aee9-f53cb0ccba8c" />
+
+<img width="858" height="347" alt="10" src="https://github.com/user-attachments/assets/66d421bd-0ec4-4d5b-8340-abbd076183f8" />
+
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/77732acd-7524-4635-8454-e5f64365f577" />
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/07590d9b-8a01-45f0-aaa4-820b2d8e482f" />
 
 #### ขั้นตอนที่ 4.2 — Destination Detail Screen
 
