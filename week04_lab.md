@@ -1126,10 +1126,23 @@ class _StatCard extends StatelessWidget {
 > 2. เพิ่ม Section ใหม่ด้านล่าง Quick Stats ชื่อ "รีวิวยอดนิยม" ที่ใช้ `Column` ครอบ `ListView` แนวตั้งแบบ `shrinkWrap: true` และ `physics: NeverScrollableScrollPhysics()` แสดงชื่อ Destination 3 อันดับที่ `rating` สูงสุด (ต้องเขียน Logic Sort เอง)
 > 3. เขียน Comment อธิบายว่าทำไมต้องใส่ `shrinkWrap: true` และ `NeverScrollableScrollPhysics()` เมื่อวาง `ListView` ซ้อนอยู่ใน `Column` ที่อยู่ใน `SingleChildScrollView` อีกที (จะเกิดอะไรขึ้นถ้าไม่ใส่)
 
+บันทึกรูปโค้ด
+<img width="923" height="945" alt="12" src="https://github.com/user-attachments/assets/fd920a99-ce93-414a-8a0c-8a438f61e6f7" />
+
+<img width="938" height="947" alt="13" src="https://github.com/user-attachments/assets/3238c3b0-2c54-4fbf-a88f-058d934c7b69" />
+
+<img width="933" height="942" alt="14" src="https://github.com/user-attachments/assets/3dbeab1c-446a-43b8-b80d-7df55bbb20b6" />
+
+<img width="1600" height="891" alt="15" src="https://github.com/user-attachments/assets/8136f163-d1da-481c-a34d-a19dd2cefc3e" />
+
+<img width="1015" height="947" alt="16" src="https://github.com/user-attachments/assets/f9544902-8602-4fdd-9312-93737d9f8b48" />
+
+<img width="1028" height="936" alt="17" src="https://github.com/user-attachments/assets/acf36b2a-519a-47bf-bbbd-9bd3c8c2681a" />
+
 บันทึกรูปผลการทดลอง
-```image
-บันทึกรูปโค้ด และรูปผลการทดลองที่นี่ (กรณีที่ยังไม่สามารถรันได้ ให้ทดลองจนถึงขั้นตอนที่สามารถ capture รูปได้และบันทึกรูปไว้ในส่วนนี้)
-```
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8bce98b3-78c7-48ee-afe5-10d8234da901" />
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1eb65678-1344-4add-b698-188f52c28ba4" />
 
 สร้างไฟล์ `lib/screens/saved_screen.dart`:
 
