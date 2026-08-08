@@ -484,6 +484,7 @@ class DestinationCard extends StatelessWidget {
 > 3. เขียน Comment สั้น ๆ ในโค้ดของตัวเองอธิบายว่าทำไมต้องใช้ `Positioned` คู่กับ `Stack` ถึงจะย้ายตำแหน่ง Badge ได้ (ถ้าใช้ `Positioned` นอก `Stack` จะเกิดอะไรขึ้น)
 
 บันทึกรูปโค้ด
+
 <img width="858" height="948" alt="1" src="https://github.com/user-attachments/assets/22fcda62-c026-49e0-95a9-f070cc37a291" />
 
 <img width="1396" height="940" alt="2" src="https://github.com/user-attachments/assets/8989e145-3e20-4cae-a2e3-0cb49919af4a" />
@@ -496,6 +497,7 @@ class DestinationCard extends StatelessWidget {
 
 
 บันทึกรูปผลการทดลอง
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6fcf7cc9-6919-4c3c-bdcb-b2003ecec750" />
 
 ---
@@ -651,6 +653,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
 > 3. สังเกตว่าค่าทั้งสองตัวเท่ากันหรือไม่ แล้วเขียนสรุป 2-3 บรรทัดเป็น Comment ในโค้ดว่า `MediaQuery.of(context).size.width` (ความกว้างของทั้งหน้าจอ) กับ `LayoutBuilder` `constraints.maxWidth` (ความกว้างที่ Widget นั้น ๆ ได้รับจาก Parent) ต่างกันอย่างไร และควรเลือกใช้ตัวไหนเมื่อไหร่
 
 บันทึกรูปโค้ด
+
 <img width="868" height="946" alt="6" src="https://github.com/user-attachments/assets/91693983-a9c8-431b-9cdd-d94711fe50f1" />
 
 <img width="817" height="945" alt="7" src="https://github.com/user-attachments/assets/b3b62206-5094-44cf-aa6e-8a1ed2f73ec2" />
@@ -662,6 +665,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
 <img width="858" height="347" alt="10" src="https://github.com/user-attachments/assets/66d421bd-0ec4-4d5b-8340-abbd076183f8" />
 
 บันทึกรูปผลการทดลอง
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fc6284d7-2fe6-4a42-8cea-bf58841384b1" />
 
 
@@ -1124,6 +1128,7 @@ class _StatCard extends StatelessWidget {
 > 3. เขียน Comment อธิบายว่าทำไมต้องใส่ `shrinkWrap: true` และ `NeverScrollableScrollPhysics()` เมื่อวาง `ListView` ซ้อนอยู่ใน `Column` ที่อยู่ใน `SingleChildScrollView` อีกที (จะเกิดอะไรขึ้นถ้าไม่ใส่)
 
 บันทึกรูปโค้ด
+
 <img width="923" height="945" alt="12" src="https://github.com/user-attachments/assets/fd920a99-ce93-414a-8a0c-8a438f61e6f7" />
 
 <img width="938" height="947" alt="13" src="https://github.com/user-attachments/assets/3238c3b0-2c54-4fbf-a88f-058d934c7b69" />
@@ -1137,6 +1142,7 @@ class _StatCard extends StatelessWidget {
 <img width="1028" height="936" alt="17" src="https://github.com/user-attachments/assets/acf36b2a-519a-47bf-bbbd-9bd3c8c2681a" />
 
 บันทึกรูปผลการทดลอง
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/57a95201-50a9-4f2b-9062-d04d3835b5f6" />
 
 
@@ -1234,6 +1240,7 @@ class ProfileScreen extends StatelessWidget {
   }
 }
 ```
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d9b91084-a7b3-4d1e-8191-74d6e4f33afe" />
 
 ---
@@ -1390,6 +1397,7 @@ final GoRouter appRouter = GoRouter(
 > 3. ทดสอบ Fallback ที่แก้ไข โดยรันแอปบน Chrome (`flutter run -d chrome`) แล้วพิมพ์ URL `/explore/destinations/999` ตรง ๆ ใน Address Bar (เป็น `id` ที่ไม่มีอยู่จริง) — ต้องเห็นหน้า "ไม่พบข้อมูลที่ต้องการ" ไม่ใช่ Error สีแดงหรือข้อมูลผิดตัว
 
 บันทึกรูปโค้ด
+
 <img width="857" height="950" alt="19" src="https://github.com/user-attachments/assets/e99a2da4-f5f4-4c84-9bdb-e6c20c44d40a" />
 
 <img width="866" height="947" alt="20" src="https://github.com/user-attachments/assets/483724c8-c864-402b-92cb-93f8ca2dcd54" />
@@ -1403,6 +1411,7 @@ final GoRouter appRouter = GoRouter(
 <img width="588" height="458" alt="24" src="https://github.com/user-attachments/assets/de346a31-3ceb-4633-8bff-35a3234f6e3e" />
 
 บันทึกรูปผลการทดลอง
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/42e052b4-1dd4-4f62-a7f1-6e8a32b65942" />
 
 
